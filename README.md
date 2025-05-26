@@ -1,7 +1,5 @@
 # Human-Computer Interaction using Computer Vision Techniques
 
-![Demo Image](images/right_click.gif)
-
 ## 📌 Overview
 
 This project enables **touchless computer interaction** using hand gestures detected via a webcam. It uses **MediaPipe** for real-time hand tracking, **OpenCV** for camera input, and **PyAutoGUI** for mouse event simulation. With simple gestures, the user can:
@@ -13,9 +11,12 @@ This project enables **touchless computer interaction** using hand gestures dete
 
 This offers a hygienic, intuitive alternative to physical input devices.
 
-## 📽 Demo
-
-> *(Add a GIF or screenshot of the system working. Place your media in the `images/` folder.)*
+<p align="center">
+  <img src="image/mouse_movement.png" width="400"/>
+  <img src="image/right_click.png" width="400"/>
+  <img src="image/scroll_down.png" width="400"/>
+  <img src="image/scroll_up.png" width="400"/>
+</p>
 
 ## 🧠 Features
 
@@ -50,8 +51,10 @@ This offers a hygienic, intuitive alternative to physical input devices.
 gesture_mouse_control/
 ├── main.py              # Main Python script
 ├── README.md            # Project documentation
-├── images/
-│   └── demo.gif         # Demo media (add your own)
+├── image/
+│   └── image_demo.png    
+├── project report
+├── demo video
 └── requirements.txt     # Required packages
 ```
 
