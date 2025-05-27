@@ -67,13 +67,7 @@ cd gesture-mouse-control
 ```
 
 ### 2. Install Dependencies
-Create a `requirements.txt` with the following:
-```txt
-opencv-python
-mediapipe
-pyautogui
-```
-Then install:
+
 ```bash
 pip install -r requirements.txt
 ```
